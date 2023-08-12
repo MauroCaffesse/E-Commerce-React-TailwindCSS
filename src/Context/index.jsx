@@ -2,6 +2,7 @@ import { createContext, useEffect, useState } from "react";
 
 export const ShoppingCartContext = createContext();
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const initializeLocalStorage = () => {
   const accountInLocalStorage = localStorage.getItem("account");
   const signOutInLocalStorage = localStorage.getItem("sign-out");
